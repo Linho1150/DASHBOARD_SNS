@@ -3,7 +3,7 @@ import time
 import os
 
 def kill_process():
-    os.system("taskkill /f /im firefox.exe")
+    os.system("taskkill /f /im chrome.exe")
 def open_proecess():
     filepath = "GUI\index.html"
     os.startfile(filepath)
